@@ -16,7 +16,7 @@ export default function Home() {
             src="/hero-bg.jpg" 
             alt="DU DEE POWER Hero Background" 
             fill
-            className="object-cover w-full h-full brightness-85"
+            className="object-cover w-full h-full brightness-125"
             priority
             sizes="100vw"
             style={{
@@ -31,13 +31,13 @@ export default function Home() {
         <div className="relative z-10 flex items-center justify-center h-full">
           <div className="text-center px-4 sm:px-6 lg:px-8">
             <div className="rounded-2xl p-8 md:p-12">
-              <h1 className="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight">
-                บริษัท ดูดี พาวเวอร์ จำกัด
+              <h1 className="text-5xl md:text-7xl font-black text-gray-900 mb-6 tracking-tight drop-shadow-lg">
+                DU DEE POWER
               </h1>
-              <p className="text-2xl md:text-3xl text-white font-semibold mb-12 max-w-4xl mx-auto">
+              {/* <p className="text-2xl md:text-3xl text-white font-semibold mb-12 max-w-4xl mx-auto">
                 บริการก่อสร้างและติดตั้งระบบครบวงจร โยธา ไฟฟ้า พลังงาน และอัตโนมัติ
                 พร้อมทีมวิศวกรผู้เชี่ยวชาญกว่า 15 ปี
-              </p>
+              </p> */}
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <Link href="/contact" className="bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-600 hover:from-sky-600 hover:via-blue-700 hover:to-indigo-700 text-white font-bold py-4 px-10 rounded-xl transition-all transform hover:scale-105 shadow-2xl text-lg">
                   ติดต่อเรา
