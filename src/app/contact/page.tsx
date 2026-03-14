@@ -24,9 +24,19 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    // Handle form submission here
-    alert("ข้อความของคุณถูกส่งแล้ว! เราจะติดต่อกลับโดยเร็ว");
+    
+    const subject = "ติดต่อจาก DU DEE POWER Website";
+    const body = `ชื่อ-นามสกุล: ${formData.name}
+อีเมล: ${formData.email}
+เบอร์โทรศัพท์: ${formData.phone}
+ชื่อบริษัท: ${formData.company || 'ไม่ระบุ'}
+บริการที่สนใจ: ${formData.service}
+ข้อความ: ${formData.message}`;
+    
+    const mailtoUrl = `mailto:panudech.ee52@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    
+    window.location.href = mailtoUrl;
+    
     setFormData({
       name: "",
       email: "",
@@ -58,60 +68,60 @@ export default function Contact() {
             <h2 className="text-2xl font-bold text-sky-900 mb-6">ส่งข้อความถึงเรา</h2>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label className="block text-sky-700 mb-2">ชื่อ-นามสกุล *</label>
+                <label className="block text-sky-900 font-semibold mb-2">ชื่อ-นามสกุล *</label>
                 <input
                   type="text"
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 bg-sky-100/50 border-sky-300 placeholder-sky-500 focus:border-sky-400 focus:outline-none focus:border-blue-400"
+                  className="w-full px-4 py-2 bg-sky-100/50 border-sky-300 text-gray-900 placeholder-gray-400 focus:border-sky-400 focus:outline-none focus:border-blue-400"
                   placeholder="กรุณากรอกชื่อ-นามสกุล"
                 />
               </div>
               <div>
-                <label className="block text-sky-700 mb-2">อีเมล *</label>
+                <label className="block text-sky-900 font-semibold mb-2">อีเมล *</label>
                 <input
                   type="email"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 bg-sky-100/50 border-sky-300 placeholder-sky-500 focus:border-sky-400 focus:outline-none focus:border-blue-400"
+                  className="w-full px-4 py-2 bg-sky-100/50 border-sky-300 text-gray-900 placeholder-gray-400 focus:border-sky-400 focus:outline-none focus:border-blue-400"
                   placeholder="email@example.com"
                 />
               </div>
               <div>
-                <label className="block text-sky-700 mb-2">เบอร์โทรศัพท์ *</label>
+                <label className="block text-sky-900 font-semibold mb-2">เบอร์โทรศัพท์ *</label>
                 <input
                   type="tel"
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 bg-sky-100/50 border-sky-300 placeholder-sky-500 focus:border-sky-400 focus:outline-none focus:border-blue-400"
+                  className="w-full px-4 py-2 bg-sky-100/50 border-sky-300 text-gray-900 placeholder-gray-400 focus:border-sky-400 focus:outline-none focus:border-blue-400"
                   placeholder="08x-xxx-xxxx"
                 />
               </div>
               <div>
-                <label className="block text-sky-700 mb-2">ชื่อบริษัท</label>
+                <label className="block text-sky-900 font-semibold mb-2">ชื่อบริษัท</label>
                 <input
                   type="text"
                   name="company"
                   value={formData.company}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 bg-sky-100/50 border-sky-300 placeholder-sky-500 focus:border-sky-400 focus:outline-none focus:border-blue-400"
+                  className="w-full px-4 py-2 bg-sky-100/50 border-sky-300 text-gray-900 placeholder-gray-400 focus:border-sky-400 focus:outline-none focus:border-blue-400"
                   placeholder="บริษัท จำกัด"
                 />
               </div>
               <div>
-                <label className="block text-sky-700 mb-2">บริการที่สนใจ *</label>
+                <label className="block text-sky-900 font-semibold mb-2">บริการที่สนใจ *</label>
                 <select
                   name="service"
                   value={formData.service}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 bg-sky-100/50 border-sky-300 placeholder-sky-500 focus:border-sky-400 focus:outline-none focus:border-blue-400"
+                  className="w-full px-4 py-2 bg-sky-100/50 border-sky-300 text-gray-900 placeholder-gray-400 focus:border-sky-400 focus:outline-none focus:border-blue-400"
                 >
                   <option value="">เลือกบริการ</option>
                   <option value="electrical">ระบบไฟฟ้าอุตสาหกรรม</option>
@@ -123,14 +133,14 @@ export default function Contact() {
                 </select>
               </div>
               <div>
-                <label className="block text-sky-700 mb-2">ข้อความ *</label>
+                <label className="block text-sky-900 font-semibold mb-2">ข้อความ *</label>
                 <textarea
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
                   required
                   rows={4}
-                  className="w-full px-4 py-2 bg-sky-100/50 border-sky-300 placeholder-sky-500 focus:border-sky-400 focus:outline-none focus:border-blue-400"
+                  className="w-full px-4 py-2 bg-sky-100/50 border-sky-300 text-gray-900 placeholder-gray-400 focus:border-sky-400 focus:outline-none focus:border-blue-400"
                   placeholder="กรุณาระบุรายละเอียด..."
                 />
               </div>
@@ -154,8 +164,8 @@ export default function Contact() {
                   <div>
                     <h3 className="text-sky-900 font-semibold mb-1">ที่อยู่</h3>
                     <p className="text-sky-700">
-                      123/45 ถนนสุขุมวิท 64<br />
-                      แขวงบางจาก เขตพระโขนง กรุงเทพมหานคร 10260
+                      125/254 หมู่ที่ 3 ตำบลศาลากลาง<br />
+                      อำเภอบางกรวย จังหวัดนนทบุรี 11130
                     </p>
                   </div>
                 </div>
@@ -163,16 +173,14 @@ export default function Contact() {
                   <div className="text-sky-600 text-2xl mr-4 mt-1">📞</div>
                   <div>
                     <h3 className="text-sky-900 font-semibold mb-1">โทรศัพท์</h3>
-                    <p className="text-sky-700">02-123-4567</p>
-                    <p className="text-sky-700">089-123-4567</p>
+                    <p className="text-sky-700">+66-87-361-0569</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <div className="text-sky-600 text-2xl mr-4 mt-1">✉️</div>
                   <div>
                     <h3 className="text-sky-900 font-semibold mb-1">อีเมล</h3>
-                    <p className="text-sky-700">info@electrotech.co.th</p>
-                    <p className="text-sky-700">support@electrotech.co.th</p>
+                    <p className="text-sky-700">dudeepower@outlook.com</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -195,27 +203,18 @@ export default function Contact() {
                 <div className="text-red-400 text-2xl mr-3">🚨</div>
                 <h3 className="text-xl font-bold text-sky-900">ฉุกเฉิน 24 ชั่วโมง</h3>
               </div>
-              <p className="text-red-200 mb-2">
+              <p className="text-sky-900 font-bold mb-2">
                 สำหรับกรณีฉุกเฉินด้านระบบไฟฟ้าและอัตโนมัติ
               </p>
-              <p className="text-sky-900 font-bold text-lg">081-999-8888</p>
+              <a href="tel:+66873610569" className="text-sky-900 font-bold text-lg hover:text-sky-700 transition-colors">0873610569</a>
             </div>
 
             {/* Social Media */}
             <div className="bg-sky-50/70 backdrop-blur-sm p-6 rounded-lg border border-sky-200">
               <h3 className="text-xl font-bold text-sky-900 mb-4">ติดตามเรา</h3>
               <div className="flex space-x-4">
-                <a href="#" className="bg-sky-600 hover:bg-sky-700 text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors">
+                <a href="https://www.facebook.com/profile.php?id=61584888801917" target="_blank" rel="noopener noreferrer" className="bg-sky-600 hover:bg-sky-700 text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors">
                   <span>f</span>
-                </a>
-                <a href="#" className="bg-sky-600 hover:bg-sky-700 text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors">
-                  <span>in</span>
-                </a>
-                <a href="#" className="bg-sky-600 hover:bg-sky-700 text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors">
-                  <span>@</span>
-                </a>
-                <a href="#" className="bg-sky-600 hover:bg-sky-700 text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors">
-                  <span>▶</span>
                 </a>
               </div>
             </div>

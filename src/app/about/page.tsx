@@ -19,126 +19,54 @@ export default function About() {
         </div>
 
         {/* Company Story */}
-        <div className="grid md:grid-cols-2 gap-12 mb-16">
-          <div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">เรื่องราวของเรา</h2>
-            <p className="text-gray-600 mb-4">
-              DU DEE POWER ก่อตั้งขึ้นในปี 2550 โดยทีมวิศวกรไฟฟ้าที่มีประสบการณ์ในอุตสาหกรรม
-              ด้วยความมุ่งมั่นที่จะให้บริการด้านระบบไฟฟ้าและอัตโนมัติที่มีคุณภาพสูงสุด
-            </p>
-            <p className="text-gray-600 mb-4">
-              เราเริ่มจากการให้บริการติดตั้งระบบไฟฟ้าในโรงงานขนาดเล็ก และขยายธุรกิจไปสู่การเป็นผู้ให้บริการ
-              ระบบอัตโนมัติและ PLC ครบวงจรสำหรับอุตสาหกรรมขนาดใหญ่
-            </p>
-            <p className="text-gray-600">
-              ปัจจุบันเราเป็นพันธมิตรที่เชื่อถือได้ของลูกค้าในหลากหลายอุตสาหกรรม ทั้งในประเทศและต่างประเทศ
+        <div className="bg-white/90 backdrop-blur-sm p-12 rounded-2xl border border-gray-200 shadow-xl mb-16">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              เรื่องราวของเรา (Our Story)
+            </h2>
+            <p className="text-xl text-blue-600 font-semibold mb-8">
+              "รากฐานที่แข็งแกร่ง จากความเชี่ยวชาญสู่นวัตกรรมวิศวกรรมที่ยั่งยืน"
             </p>
           </div>
-          <div className="bg-white/80 backdrop-blur-sm p-8 rounded-xl border border-gray-200 shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">วิสัยทัศน์ของเรา</h3>
-            <p className="text-gray-600 mb-4">
-              "เป็นผู้นำด้านโซลูชันระบบไฟฟ้าและอัตโนมัติที่เชื่อถือได้มากที่สุดในประเทศไทย"
+          
+          <div className="prose prose-lg max-w-none text-gray-600 space-y-4">
+            <p>
+              บริษัท ดู ดี พาวเวอร์ จำกัด (DU DEE POWER) ก่อตั้งขึ้นบนเจตนารมณ์ที่ต้องการยกระดับมาตรฐานงานวิศวกรรมในประเทศไทย เราเริ่มต้นเส้นทางจากการรวมตัวของกลุ่มวิศวกรไฟฟ้าที่มีประสบการณ์เข้มข้นในสายงานอุตสาหกรรม โดยมีหมุดหมายสำคัญคือการส่งมอบงานระบบไฟฟ้าและระบบอัตโนมัติที่ไม่ใช่แค่ "ใช้งานได้" แต่ต้อง "ดีที่สุดและปลอดภัยที่สุด" ตามหลักวิศวกรรมสากล
             </p>
-            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8">พันธกิจของเรา</h3>
-            <ul className="text-gray-600 space-y-3">
-              <li>• มอบโซลูชันที่มีประสิทธิภาพและปลอดภัยสูงสุด</li>
-              <li>• พัฒนานวัตกรรมเพื่อเพิ่มประสิทธิภาพการผลิต</li>
-              <li>• สร้างความยั่งยืนให้ลูกค้าและสังคม</li>
-              <li>• พัฒนาบุคลากรให้มีความเชี่ยวชาญสูงสุด</li>
-            </ul>
+            <p>
+              จากจุดเริ่มต้นในการให้บริการติดตั้งระบบไฟฟ้าสำหรับสถานประกอบการและโรงงานขนาดเล็ก เราได้พิสูจน์ให้เห็นถึงความใส่ใจในทุกรายละเอียด ความซื่อสัตย์ต่อวิชาชีพ และที่สำคัญที่สุดคือ "ความรับผิดชอบต่อคำมั่นสัญญา" ทำให้ DU DEE POWER ได้รับความไว้วางใจอย่างรวดเร็ว จนสามารถขยายขอบเขตบริการสู่การเป็นผู้เชี่ยวชาญด้านระบบอัตโนมัติ (Automation) และการควบคุมผ่าน PLC ครบวงจร สำหรับอุตสาหกรรมขนาดใหญ่และโครงการโครงสร้างพื้นฐานที่ซับซ้อน
+            </p>
+            <p>
+              เราไม่ได้มองว่าตัวเองเป็นเพียงผู้รับเหมา แต่เราคือ "ที่ปรึกษาและพันธมิตรทางยุทธศาสตร์" ของคู่ค้า ปัจจุบัน DU DEE POWER ภาคภูมิใจที่ได้รับความไว้วางใจจากลูกค้าหลากหลายกลุ่ม ทั้งโรงงานอุตสาหกรรมชั้นนำ อาคารพาณิชย์ และโครงการระดับประเทศ ด้วยการผสานองค์ความรู้ทางวิศวกรรมแบบดั้งเดิมเข้ากับเทคโนโลยีสมัยใหม่ เช่น Industrial IoT และ Dashboard Monitoring เพื่อขับเคลื่อนธุรกิจของลูกค้าให้ก้าวทันโลกยุคดิจิทัลอย่างมั่นคง โดยเรายังคงยึดถือคติพจน์สำคัญคือ "ใส่ใจทุกขั้นตอน พัฒนาตนเองไม่หยุดยั้ง และไม่มีคำว่าทิ้งงาน"
+            </p>
           </div>
         </div>
 
-        {/* Stats */}
-        <div className="grid md:grid-cols-4 gap-6 mb-16">
-          <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-center">
-            <div className="text-3xl font-bold text-gray-600 mb-2">15+</div>
-            <div className="text-gray-600">ปีประสบการณ์</div>
+        {/* Vision */}
+        <div className="bg-gradient-to-r from-blue-600 to-indigo-600 p-12 rounded-2xl shadow-xl mb-16">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-white mb-6">
+              วิสัยทัศน์ของเรา (Our Vision)
+            </h2>
+            <p className="text-xl text-white/90 font-medium leading-relaxed">
+              "มุ่งสู่การเป็นผู้นำด้านโซลูชันวิศวกรรมไฟฟ้าและเทคโนโลยีอัตโนมัติที่ได้รับความไว้วางใจสูงสุดในระดับภูมิภาค โดยยึดมั่นในมาตรฐานสากลและความยั่งยืนของนวัตกรรม"
+            </p>
           </div>
-          <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-center">
-            <div className="text-3xl font-bold text-gray-600 mb-2">200+</div>
-            <div className="text-gray-600">โครงการที่สำเร็จ</div>
-          </div>
-          <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-center">
-            <div className="text-3xl font-bold text-gray-600 mb-2">50+</div>
-            <div className="text-gray-600">ทีมวิศวกร</div>
-          </div>
-          <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-center">
-            <div className="text-3xl font-bold text-gray-600 mb-2">98%</div>
-            <div className="text-gray-600">ความพึงพอใจ</div>
+          <div className="mt-8 text-white/80">
+            <p className="text-center leading-relaxed">
+              เรามุ่งหวังที่จะเป็น "มาตรฐานใหม่" ของวงการวิศวกรรมไทย ที่ซึ่งคุณภาพงานระดับสูงมาพร้อมกับความคุ้มค่าและความรับผิดชอบ โดยเราจะไม่หยุดนิ่งในการแสวงหาเทคโนโลยีที่ดีที่สุดเพื่อส่งมอบความได้เปรียบในการแข่งขันให้กับลูกค้าของเรา
+            </p>
           </div>
         </div>
 
-        {/* Team */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">ทีมผู้เชี่ยวชาญของเรา</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-center">
-              <div className="w-24 h-24 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-gray-900 text-2xl font-bold">วศ.</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">วิศวกรไฟฟ้า</h3>
-              <p className="text-gray-600 text-sm mb-3">ประสบการณ์ 10+ ปี</p>
-              <p className="text-gray-600 text-sm">
-                ผู้เชี่ยวชาญด้านการออกแบบระบบไฟฟ้าอุตสาหกรรมและระบบกำลัง
-              </p>
-            </div>
-            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-center">
-              <div className="w-24 h-24 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-gray-900 text-2xl font-bold">PLC</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">วิศวกรอัตโนมัติ</h3>
-              <p className="text-gray-600 text-sm mb-3">ประสบการณ์ 8+ ปี</p>
-              <p className="text-gray-600 text-sm">
-                ผู้เชี่ยวชาญด้านระบบควบคุม PLC SCADA และระบบอัตโนมัติ
-              </p>
-            </div>
-            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-center">
-              <div className="w-24 h-24 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-gray-900 text-2xl font-bold">IT</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">วิศวกร IT</h3>
-              <p className="text-gray-600 text-sm mb-3">ประสบการณ์ 6+ ปี</p>
-              <p className="text-gray-600 text-sm">
-                ผู้เชี่ยวชาญด้านระบบเครือข่ายและการเชื่อมต่อระบบอุตสาหกรรม
-              </p>
-            </div>
-          </div>
-        </div>
+        
 
-        {/* Certifications */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">มาตรฐานและการรับรอง</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-center">
-              <div className="text-sky-600 text-3xl mb-3">🏆</div>
-              <h3 className="text-gray-900 font-semibold mb-2">ISO 9001:2015</h3>
-              <p className="text-gray-600 text-sm">ระบบบริหารคุณภาพ</p>
-            </div>
-            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-center">
-              <div className="text-sky-600 text-3xl mb-3">⚡</div>
-              <h3 className="text-gray-900 font-semibold mb-2">มอก. 634</h3>
-              <p className="text-gray-600 text-sm">มาตรฐานระบบไฟฟ้า</p>
-            </div>
-            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-center">
-              <div className="text-sky-600 text-3xl mb-3">🔒</div>
-              <h3 className="text-gray-900 font-semibold mb-2">IEC 61131</h3>
-              <p className="text-gray-600 text-sm">มาตรฐาน PLC</p>
-            </div>
-            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-xl border border-gray-200 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-center">
-              <div className="text-sky-600 text-3xl mb-3">🛡️</div>
-              <h3 className="text-gray-900 font-semibold mb-2">OHSAS 18001</h3>
-              <p className="text-gray-600 text-sm">ความปลอดภัย</p>
-            </div>
-          </div>
-        </div>
-
-        {/* CTA */}
-        <div className="text-center bg-white/80 backdrop-blur-sm p-8 rounded-xl border border-gray-200 shadow-lg">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            พร้อมทำงานร่วมกับเราหรือไม่?
+        {/* CTA with Download */}
+        <div className="text-center bg-white/90 backdrop-blur-sm p-12 rounded-2xl border border-gray-200 shadow-xl">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            Download Company Profile
           </h2>
-          <p className="text-gray-600 mb-6">
+          <p className="text-gray-600 mb-8">
             ติดต่อเราวันนี้เพื่อปรึกษาโซลูชันระบบไฟฟ้าและอัตโนมัติที่เหมาะสมกับธุรกิจของคุณ
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -148,6 +76,16 @@ export default function About() {
             <Link href="/services" className="bg-white border-2 border-indigo-200 text-indigo-600 hover:bg-indigo-50 font-bold py-3 px-8 rounded-lg transition-colors">
               ดูบริการ
             </Link>
+            <a 
+              href="/company-profile.pdf" 
+              download="DU-DEE-POWER-Company-Profile.pdf"
+              className="bg-gradient-to-r from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700 text-white font-bold py-3 px-8 rounded-lg transition-colors flex items-center justify-center gap-2"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              Download Company Profile
+            </a>
           </div>
         </div>
       </div>
