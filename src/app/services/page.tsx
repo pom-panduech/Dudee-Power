@@ -46,10 +46,10 @@ export default function Services() {
                   </span>
                 </div>
                 <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">
-                  ควบคุมงานก่อสร้าง
+                  รั้วกำแพงดินและงานต่อเติมบ้านพักอาศัย
                 </h3>
                 <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                  บริหารจัดการและควบคุมงานก่อสร้างทุกประเภท โดยทีมวิศวกรผู้เชี่ยวชาญ 
+                  บริหารจัดการและควบคุมงานก่อสร้าง โดยทีมวิศวกรผู้เชี่ยวชาญ 
                   ที่มีประสบการณ์สูง พร้อมระบบติดตามและควบคุมคุณภาพอย่างเข้มงวด
                 </p>
                 <ul className="space-y-3 mb-6">
@@ -57,13 +57,13 @@ export default function Services() {
                     <svg className="w-5 h-5 text-blue-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-gray-700">บริหารโครงการก่อสร้างคอนกรีต</span>
+                    <span className="text-gray-700">บริหารโครงการก่อสร้าง</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-blue-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-gray-700">ควบคุมงานก่อสร้างอาคารพาณิชย์</span>
+                    <span className="text-gray-700">ควบคุมงานก่อสร้าง</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-5 h-5 text-blue-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
