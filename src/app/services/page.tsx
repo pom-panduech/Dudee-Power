@@ -73,10 +73,12 @@ export default function Services() {
                   </li>
                 </ul>
                 <div className="flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors cursor-pointer">
-                  <span>ดูรายละเอียดเพิ่มเติม</span>
-                  <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+                  <Link href="/services/construction" className="flex items-center">
+                    <span>ดูรายละเอียดเพิ่มเติม</span>
+                    <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -128,10 +130,12 @@ export default function Services() {
                   </li>
                 </ul>
                 <div className="flex items-center text-purple-600 font-semibold hover:text-purple-700 transition-colors cursor-pointer">
-                  <span>ดูรายละเอียดเพิ่มเติม</span>
-                  <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+                  <Link href="/services/drawing" className="flex items-center">
+                    <span>ดูรายละเอียดเพิ่มเติม</span>
+                    <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -183,10 +187,12 @@ export default function Services() {
                   </li>
                 </ul>
                 <div className="flex items-center text-yellow-600 font-semibold hover:text-yellow-700 transition-colors cursor-pointer">
-                  <span>ดูรายละเอียดเพิ่มเติม</span>
-                  <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+                  <Link href="/services/electrical" className="flex items-center">
+                    <span>ดูรายละเอียดเพิ่มเติม</span>
+                    <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -238,10 +244,12 @@ export default function Services() {
                   </li>
                 </ul>
                 <div className="flex items-center text-green-600 font-semibold hover:text-green-700 transition-colors cursor-pointer">
-                  <span>ดูรายละเอียดเพิ่มเติม</span>
-                  <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+                  <Link href="/services/solarcell" className="flex items-center">
+                    <span>ดูรายละเอียดเพิ่มเติม</span>
+                    <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -293,10 +301,12 @@ export default function Services() {
                   </li>
                 </ul>
                 <div className="flex items-center text-indigo-600 font-semibold hover:text-indigo-700 transition-colors cursor-pointer">
-                  <span>ดูรายละเอียดเพิ่มเติม</span>
-                  <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+                  <Link href="/services/plcAutomation" className="flex items-center">
+                    <span>ดูรายละเอียดเพิ่มเติม</span>
+                    <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -348,10 +358,12 @@ export default function Services() {
                   </li>
                 </ul>
                 <div className="flex items-center text-cyan-600 font-semibold hover:text-cyan-700 transition-colors cursor-pointer">
-                  <span>ดูรายละเอียดเพิ่มเติม</span>
-                  <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
+                  <Link href="/services/monitoring" className="flex items-center">
+                    <span>ดูรายละเอียดเพิ่มเติม</span>
+                    <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </Link>
                 </div>
               </div>
             </div>

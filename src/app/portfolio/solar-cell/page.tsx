@@ -6,14 +6,20 @@ import PortfolioLayout from "@/components/PortfolioLayout";
 const projects = [
   {
     title: "โครงการติดตั้ง Solar Cell 1",
-    description: "ระบบติดตั้ง Solar Cell ขนาด 10kW บนดาช",
+    description: "ระบบติดตั้ง Solar Cell ขนาด 10kW บ้านจัดสรร",
     image: "/solar1.jpg",
     category: "Solar Cell"
   },
   {
     title: "โครงการติดตั้ง Solar Cell 2", 
-    description: "ระบบ Hybrid ขนาด 50kW",
+    description: "ระบบ Hybrid ขนาด 10kW บ้านจัดสรร",
     image: "/solar2.jpg",
+    category: "Solar Cell"
+  },
+  {
+    title: "โครงการติดตั้ง Solar Cell 3", 
+    description: "ระบบ Hybrid ขนาด 25kW (Mini BigC)",
+    image: "/service4.jpg",
     category: "Solar Cell"
   }
 ];
