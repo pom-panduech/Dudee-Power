@@ -10,70 +10,112 @@ export default function MonitoringServices() {
       {/* Service Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-16">
-          <div className="inline-block p-1 bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 rounded-2xl mb-8">
+          <div className="inline-block p-1 bg-gradient-to-r from-blue-500 via-cyan-500 to-teal-500 rounded-2xl mb-8">
             <div className="bg-white rounded-2xl px-8 py-4">
-              <h1 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 via-blue-600 to-indigo-600">
+              <h1 className="text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-cyan-600 to-teal-600">
                 ระบบ Dashboard
               </h1>
             </div>
           </div>
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            พัฒนาระบบ Monitoring Dashboard สำหรับติดตามและวิเคราะห์ข้อมูล 
-            ช่วยให้การตัดสินใจเป็นไปอย่างมีประสิทธิภาพ
-          </p>
-          <div className="mt-6 flex justify-center">
-            <div className="h-1 w-32 bg-gradient-to-r from-cyan-500 via-blue-500 to-indigo-500 rounded-full"></div>
+        </div>
+
+        {/* Main Content - Image and Description Side by Side */}
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+          {/* Image Section */}
+          <div className="relative rounded-xl overflow-hidden shadow-lg group">
+            <Image
+              src="/monitoring1.jpg"
+              alt="งาน Dashboard ตัวอย่าง"
+              width={600}
+              height={450}
+              className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+
+          {/* Description Section */}
+          <div>
+            <p className="text-xl text-gray-600 leading-relaxed mb-6">
+              พัฒนาระบบ Monitoring Dashboard สำหรับติดตามและวิเคราะห์ข้อมูล 
+              ช่วยให้การตัดสินใจเป็นไปอย่างมีประสิทธิภาพ
+              พร้อมระบบแจ้งเตือนและรายงานอัตโนมัติที่ทันสมัย
+              เพื่อให้สามารถติดตามสถานะการทำงานได้ตลอดเวลา
+            </p>
+            
+            {/* Service Details */}
+            <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 rounded-2xl shadow-2xl p-8 border border-blue-700">
+              <h3 className="text-2xl font-bold text-white mb-6 tracking-wide">
+                บริการของเรา
+              </h3>
+
+              <ul className="space-y-4 text-blue-100">
+                <li className="flex items-start hover:translate-x-1 transition-all duration-200">
+                  <div className="bg-blue-600 p-2 rounded-lg mr-4 shadow-md">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <span className="leading-relaxed">
+                    พัฒนาหน้าจอ Monitoring แบบ Real-time
+                  </span>
+                </li>
+
+                <li className="flex items-start hover:translate-x-1 transition-all duration-200">
+                  <div className="bg-blue-600 p-2 rounded-lg mr-4 shadow-md">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <span className="leading-relaxed">
+                    ระบบแจ้งเตือนและรายงานอัตโนมัติ
+                  </span>
+                </li>
+
+                <li className="flex items-start hover:translate-x-1 transition-all duration-200">
+                  <div className="bg-blue-600 p-2 rounded-lg mr-4 shadow-md">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <span className="leading-relaxed">
+                    วิเคราะห์ข้อมูลและสร้างกราฟ
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        {/* Service Details */}
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
-          <div className="bg-white rounded-2xl shadow-xl p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">บริการพัฒนา</h3>
-            <ul className="space-y-3 text-gray-700">
-              <li className="flex items-start">
-                <svg className="w-5 h-5 text-cyan-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                พัฒนาหน้าจอ Monitoring แบบ Real-time
-              </li>
-              <li className="flex items-start">
-                <svg className="w-5 h-5 text-cyan-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                ระบบแจ้งเตือนและรายงานอัตโนมัติ
-              </li>
-              <li className="flex items-start">
-                <svg className="w-5 h-5 text-cyan-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                วิเคราะห์ข้อมูลและสร้างกราฟ
-              </li>
-            </ul>
-          </div>
-          
-          <div className="bg-white rounded-2xl shadow-xl p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">ประเภทระบบ</h3>
-            <ul className="space-y-3 text-gray-700">
-              <li className="flex items-start">
-                <svg className="w-5 h-5 text-cyan-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                ระบบติดตามการผลิต
-              </li>
-              <li className="flex items-start">
-                <svg className="w-5 h-5 text-cyan-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                ระบบจัดการคลังสินค้า
-              </li>
-              <li className="flex items-start">
-                <svg className="w-5 h-5 text-cyan-500 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                </svg>
-                ระบบวิเคราะห์ข้อมูล BI
-              </li>
-            </ul>
+        {/* Service Examples */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">ตัวอย่างผลงานของเรา</h3>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="relative rounded-xl overflow-hidden shadow-lg group">
+              <Image 
+                src="/monitoring1.jpg" 
+                alt="งาน Dashboard ตัวอย่าง 1"
+                width={400}
+                height={300}
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="relative rounded-xl overflow-hidden shadow-lg group">
+              <Image 
+                src="/monitoring2.jpg" 
+                alt="งาน Dashboard ตัวอย่าง 2"
+                width={400}
+                height={300}
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="relative rounded-xl overflow-hidden shadow-lg group">
+              <Image 
+                src="/monitoring3.jpg" 
+                alt="งาน Dashboard ตัวอย่าง 3"
+                width={400}
+                height={300}
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
           </div>
         </div>
 

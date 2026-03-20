@@ -22,23 +22,23 @@ export default function DrawingServices() {
         {/* Main Content - Image and Description Side by Side */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           {/* Image Section */}
-          <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white group">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-100/20 via-transparent to-purple-100/20 pointer-events-none"></div>
+          <div className="relative rounded-xl overflow-hidden shadow-lg group">
             <Image
               src="/service2.jpg"
               alt="งานออกแบบตัวอย่าง"
               width={600}
-              height={600}
-              className="w-full h-[600px] object-cover group-hover:scale-105 transition-transform duration-300 relative z-10"
+              height={450}
+              className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300"
             />
           </div>
 
           {/* Description Section */}
           <div>
             <p className="text-xl text-gray-600 leading-relaxed mb-6">
-              เราให้บริการออกแบบระบบไฟฟ้าแบบครบวงจร โดยมุ่งเน้นความปลอดภัย ประสิทธิภาพ และความคุ้มค่าสูงสุดในทุกโครงการ ไม่ว่าจะเป็นงานระบบไฟฟ้าภายในอาคาร โรงงานอุตสาหกรรม หรืองานระบบควบคุมอัตโนมัติ พร้อมจัดทำแบบวิศวกรรมด้วย AutoCAD 2D ที่มีความละเอียด ถูกต้อง และเป็นมาตรฐาน สามารถนำไปใช้งานจริงได้ทันที
-
-ด้วยประสบการณ์และความเข้าใจเชิงลึกในงานวิศวกรรมไฟฟ้า เราสามารถออกแบบและเขียนแบบได้อย่างครบถ้วน ตั้งแต่แนวคิดจนถึงแบบก่อสร้าง (Construction Drawing) ช่วยลดความเสี่ยงของปัญหาในอนาคต เพิ่มความแม่นยำในการติดตั้ง และช่วยให้โครงการดำเนินงานได้อย่างราบรื่น พร้อมทั้งเพิ่มประสิทธิภาพในการใช้พลังงานได้อย่างสูงสุด
+              ออกแบบและวาดแบบระบบไฟฟ้าด้วยโปรแกรม Autocad โดยวิศวกรผู้เชี่ยวชาญ 
+              ผลิตแบบแปลนที่ตรงตามมาตรฐานและข้อกำหนดทางวิศวกรรม
+              พร้อมระบบตรวจสอบความถูกต้องและประสิทธิภาพของระบบไฟฟ้า
+              เพื่อให้มั่นใจว่าการติดตั้งจริงสามารถทำงานได้อย่างปลอดภัย
             </p>
             
             {/* Service Details */}
@@ -66,7 +66,7 @@ export default function DrawingServices() {
                     </svg>
                   </div>
                   <span className="leading-relaxed">
-                    ออกแบบระบบไฟฟ้าโรงงานและอาคาร
+                    วาดแบบระบบไฟฟ้าโรงงานและอาคาร
                   </span>
                 </li>
 
