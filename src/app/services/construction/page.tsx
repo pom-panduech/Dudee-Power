@@ -90,32 +90,45 @@ export default function ConstructionServices() {
         {/* Service Examples */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">การดำเนินงาน</h3>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="relative rounded-xl overflow-hidden shadow-lg group">
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white group">
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-100/20 via-transparent to-purple-100/20 pointer-events-none"></div>
               <Image
                 src="/construction4.jpg"
                 alt="งานก่อสร้างตัวอย่าง 1"
-                width={400}
-                height={300}
-                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                width={600}
+                height={400}
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300 relative z-10"
               />
             </div>
-            <div className="relative rounded-xl overflow-hidden shadow-lg group">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white group">
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-100/20 via-transparent to-purple-100/20 pointer-events-none"></div>
               <Image
                 src="/construction2.jpg"
                 alt="งานก่อสร้างตัวอย่าง 2"
-                width={400}
-                height={300}
-                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                width={600}
+                height={400}
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300 relative z-10"
               />
             </div>
-            <div className="relative rounded-xl overflow-hidden shadow-lg group">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white group">
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-100/20 via-transparent to-purple-100/20 pointer-events-none"></div>
               <Image
                 src="/construction3.jpg"
                 alt="งานก่อสร้างตัวอย่าง 3"
-                width={400}
-                height={300}
-                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                width={600}
+                height={400}
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300 relative z-10"
+              />
+            </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white group">
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-100/20 via-transparent to-purple-100/20 pointer-events-none"></div>
+              <Image
+                src="/construction5.jpg"
+                alt="งานก่อสร้างตัวอย่าง 5"
+                width={600}
+                height={400}
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300 relative z-10"
               />
             </div>
           </div>

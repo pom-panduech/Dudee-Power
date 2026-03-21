@@ -33,7 +33,7 @@ export default function Portfolio() {
                 />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">รับเหมาก่อสร้าง</h3>
-              <p className="text-gray-600 text-sm mb-4">โครงการร้างคอนกรีต ถนน สะพาน อาคาร</p>
+              <p className="text-gray-600 text-sm mb-4">รั้วกำแพงดินและงานต่อเติมบ้านพักอาศัย</p>
               <div className="text-blue-600 font-medium text-sm">ดูรายละเอียดเพิ่มเติม →</div>
             </div>
           </Link>
@@ -49,7 +49,7 @@ export default function Portfolio() {
                 />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">ระบบไฟฟ้า</h3>
-              <p className="text-gray-600 text-sm mb-4">ติดตั้งระบบไฟฟ้าโรงงานอุตสาหกรรม</p>
+              <p className="text-gray-600 text-sm mb-4">ติดตั้งงานระบบไฟฟ้าทั่วไป บ้านเรือน อาคาร โรงงาน</p>
               <div className="text-blue-600 font-medium text-sm">ดูรายละเอียดเพิ่มเติม →</div>
             </div>
           </Link>

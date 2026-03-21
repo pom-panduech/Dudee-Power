@@ -39,14 +39,16 @@ export default function Header({ scrollEffect = false }: HeaderProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-4">
-            <Image 
-              src="/logo.jpg" 
-              alt="DU DEE POWER Logo" 
-              width={60} 
-              height={60}
-              className="rounded-lg shadow-md"
-            />
-            <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-teal-600 to-green-600 bg-clip-text text-transparent">DU DEE POWER</h1>
+            <Link href="/" className="flex items-center space-x-4 group">
+              <Image 
+                src="/logo.jpg" 
+                alt="DU DEE POWER Logo" 
+                width={60} 
+                height={60}
+                className="rounded-lg shadow-md group-hover:scale-105 transition-transform duration-300"
+              />
+              <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-600 via-teal-600 to-green-600 bg-clip-text text-transparent">DU DEE POWER</h1>
+            </Link>
           </div>
           
           {/* Desktop Menu */}
