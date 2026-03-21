@@ -55,7 +55,7 @@ export default function Home() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Vertical Scroll Section */}
         <div className="mt-20 space-y-32">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="flex-1">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">รับเหมาก่อสร้าง</h2>
               <p className="text-xl text-gray-600 mb-8">
@@ -79,7 +79,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col lg:flex-row-reverse items-center gap-12">
+          <div className="flex flex-col-reverse lg:flex-row-reverse items-center gap-12">
             <div className="flex-1">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">งานระบบไฟฟ้า</h2>
               <p className="text-xl text-gray-600 mb-8">
@@ -103,7 +103,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="flex-1">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">งานระบบ Solar Cell</h2>
               <p className="text-xl text-gray-600 mb-8">
@@ -127,7 +127,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col lg:flex-row-reverse items-center gap-12">
+          <div className="flex flex-col-reverse lg:flex-row-reverse items-center gap-12">
             <div className="flex-1">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">ระบบ PLC HMI SCADA</h2>
               <p className="text-xl text-gray-600 mb-8">
@@ -151,7 +151,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col lg:flex-row items-center gap-12">
+          <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="flex-1">
               <h2 className="text-4xl font-bold text-gray-900 mb-6">ระบบ Real Time Monitoring Dashboard</h2>
               <p className="text-xl text-gray-600 mb-8">
