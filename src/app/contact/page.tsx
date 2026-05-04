@@ -82,8 +82,8 @@ export default function Contact() {
                   <div>
                     <h3 className="text-white font-semibold mb-1">ที่อยู่</h3>
                     <p className="text-blue-100">
-                      125/254 หมู่ที่ 3 ตำบลศาลากลาง<br />
-                      อำเภอบางกรวย จังหวัดนนทบุรี 11130
+                      36/1 ถนน สังฆสันติสุข หมู่ที่ 5 แขวงกระทุ่งราย <br />
+                      เขตหนองจอก จังหวัดกรุงเทพมหานคร 10530
                     </p>
                   </div>
                 </div>
