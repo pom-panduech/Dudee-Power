@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "DU DEE POWER - ระบบไฟฟ้าและ PLC Automation",
-  description: "บริการออกแบบ ติดตั้ง และบำรุงรักษาระบบไฟฟ้าอุตสาหกรรม ระบบควบคุมอัตโนมัติ PLC โดยทีมวิศวกรผู้เชี่ยวชาญ",
+  title: "DU DEE POWER - ระบบไฟฟ้าและ ต่อเติมบ้านพักอาศัย",
+  description: "บริการออกแบบ ติดตั้ง และบำรุงรักษาระบบไฟฟ้าอุตสาหกรรม และต่อเติมบ้านพักอาศัย",
   icons: {
     icon: '/logo.ico',
     shortcut: '/logo.ico',
