@@ -82,7 +82,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-white font-semibold mb-1">ที่อยู่</h3>
                     <p className="text-blue-100">
-                      36/1 ถนน สังฆสันติสุข หมู่ที่ 5 แขวงกระทุ่งราย <br />
+                      36/1 ถนน สังฆสันติสุข หมู่ที่ 5 แขวงกระทุ่มราย <br />
                       เขตหนองจอก จังหวัดกรุงเทพมหานคร 10530
                     </p>
                   </div>
